@@ -1,0 +1,27 @@
+@media screen and (min-width: 1024px) {
+    
+.container .intro h4 {
+  font-style: italic;
+  word-spacing: 3px;
+  line-height: 40px;
+  font-size: 25px;
+  background: linear-gradient(90deg, #d1c3a2, #d2ced2, #4e4c57ef);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .intro p{
+    color: #d1d3d6b5;
+    margin-top: 8px;
+    font-size: 25px;
+    font-style: italic;
+}
+#atitle{
+    background: linear-gradient(90deg, #d1c3a2, #a47da4, #d2b67db9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-size: 25px;
+}
+
+  
+}
