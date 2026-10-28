@@ -40,27 +40,39 @@ body{
 }
 #navbar{
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     background-color: var(--navbg);
     height: 50px;
     border-radius: 1rem;
     border: 2px solid var(--vb);
     color: var(--nc);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+     scrollbar-width: none;
+
     align-items: center;
-    gap: 6px;
+    gap: 4px;
    
  
 }
 #navbar a{
     height: 30px;
     min-width: 100px;
-    border: 2px solid var(--nib);
-    background-color: var(--card-bg);
+    
+    background-color:  rgb(28, 28, 42);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
     text-decoration: none;
     border-radius: 5px;
+    color: var(--nc);
+}
+#navbar a:hover{
+    border: 1px solid var(--nib);
+    cursor: pointer;
+    color:  rgb(28, 28, 42);
+    background-color: var(--nc);
+    
 }
