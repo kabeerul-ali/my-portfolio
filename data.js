@@ -117,3 +117,47 @@ export const skills = [
     ],
   },
 ];
+export const projects = [
+  
+  {
+    name: "Currency Converter",
+    des: "A currency conversion application designed to convert currencies and display exchange values through a simple user interface.",
+    tech: ["HTML5", "CSS3", "JavaScript", "API"],
+    github: "https://github.com/kabeerul-ali/CUrrency-converter",
+    live: "https://currencyconverterbykabeer.netlify.app/",
+    image: "./projectimage/cc.png",
+  },
+
+  {
+    name: "Weather Forecasting",
+    des: "A weather forecasting application that helps users explore weather information using location-based data and weather APIs.",
+    tech: ["HTML5", "CSS3", "JavaScript", "Weather API"],
+    github: "https://github.com/kabeerul-ali/weather-forcasting",
+    live: "https://weatherbykabeer.netlify.app/",
+    image: "./projectimage/wa.png",
+  },
+  {
+    name: "Kabeer Blog",
+    des: "A blog project designed to present content through a structured interface with a focus on readability and user experience.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/kabeerul-ali/kabeer-blog",
+    live: "https://kabeerblog.netlify.app/",
+    image: "./projectimage/mb.png",
+  },
+  {
+    name: "Explore Universe",
+    des: "An interactive universe exploration website designed to showcase space-related content through an immersive visual experience.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/kabeerul-ali/Explore-universe",
+    live: "https://exploreuniversebykabeer.netlify.app/",
+    image: "./projectimage/eu.png",
+  },
+  {
+    name: "My Portfolio",
+    des: "A personal portfolio website showcasing my skills, projects, technical expertise, and development journey with a modern and responsive design.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/kabeerul-ali/my-portfolio",
+    live: "https://kabeerulaliportfolio.netlify.app/",
+    image: "./projectimage/portfolio.png",
+  },
+];

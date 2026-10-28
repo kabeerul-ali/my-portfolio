@@ -1,4 +1,4 @@
-import { about } from "../data.js";
+import { about } from "../../data.js";
 const parent = document.querySelector(".container");
 for (const i of about) {
   const card = document.createElement("div");

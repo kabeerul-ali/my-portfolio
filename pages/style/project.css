@@ -1,0 +1,163 @@
+:root {
+  --bodybg: #0b1120;
+  --containerbg: #070b14;
+  --containerbordercolor: #263650;
+  --cardbg: #111a2e;
+  --cardbordercolor: #334155;
+  --projtitlecolor: #38bdf8;
+  --projdescolor: #a8b7cc;
+}
+#ptitle{
+    background: linear-gradient(90deg, #60a5fa, #22d3ee, #a78bfa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-size: 30px;
+}
+.card{
+    width: 99.6%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cardbg);
+    border: 1px solid var(--cardbordercolor);
+    border-radius: 1rem;
+}
+.sidetemp{
+    width: 99.6%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.pimg{
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid var(--cardbordercolor);
+    
+}
+.pname{
+    font-size: 25px;
+    font-style: italic;
+    color: var(--projtitlecolor);
+    padding: 20px;
+}
+.pdes{
+    color: var(--projdescolor);
+    font-style: italic;
+    line-height: 25px;
+    font-size: 16px;
+}
+.pbtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.pbtn button{
+    /* background: none; */
+    width :120px;
+    height: 35px;
+    border: 2px solid var(--containerbordercolor);
+    border-radius: 1rem;
+
+}
+.livebtn{
+
+    background-color: rgba(0, 0, 255, 0.356);
+    color: green;
+
+}
+.githubbtn{
+    background: rgba(128, 0, 128, 0.395);
+    color: wheat;
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+
+
+
+#ptitle{
+    background: linear-gradient(90deg, #60a5fa, #22d3ee, #a78bfa);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-size: 30px;
+}
+.card{
+    width: 99.6%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--cardbg);
+    border: 1px solid var(--cardbordercolor);
+    border-radius: 1rem;
+}
+.sidetemp{
+    width: 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.pimg{
+    width: 40%;
+    border-radius: 1rem;
+    border: 1px solid var(--cardbordercolor);
+    
+}
+.pname{
+    font-size: 30px;
+    font-style: italic;
+    color: var(--projtitlecolor);
+    padding: 20px;
+}
+.pdes{
+    color: var(--projdescolor);
+    font-style: italic;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 4rem;
+}
+.pbtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.pbtn button{
+    /* background: none; */
+    width :120px;
+    height: 35px;
+    border: 2px solid var(--containerbordercolor);
+    border-radius: 1rem;
+
+}
+.livebtn{
+
+    background-color: rgba(0, 0, 255, 0.356);
+    color: green;
+
+}
+.githubbtn{
+    background: rgba(128, 0, 128, 0.395);
+    color: wheat;
+
+}
+
+
+    
+}

@@ -1,4 +1,4 @@
-import { skills } from "../data.js";
+import { skills } from "../../data.js";
 const parent = document.querySelector(".container");
 
 let c = 1;
