@@ -185,4 +185,41 @@ export const experience = [
       "Quality Assurance"
     ]
   }
+];export const socialMedia = [
+  {
+    name: "GitHub",
+    icon: "fa-brands fa-github",
+    link: "https://github.com/kabeerul-ali",
+    description: "Repositories, projects aur coding"
+  },
+  {
+    name: "LinkedIn",
+    icon: "fa-brands fa-linkedin",
+    link: "https://www.linkedin.com/in/kabeerul-ali-04b03a2b7/",
+    description: "Professional profile aur career"
+  },
+  {
+    name: "LeetCode",
+    icon: "fa-solid fa-code",
+    link: "https://leetcode.com/u/kabeerul/",
+    description: "DSA practice aur problem-solving"
+  },
+  {
+    name: "HackerRank",
+    icon: "fa-brands fa-hackerrank",
+    link: "https://www.hackerrank.com/profile/kabeerulali",
+    description: "Coding skills aur achievements"
+  },
+  {
+    name: "Instagram",
+    icon: "fa-brands fa-instagram",
+    link: "https://www.instagram.com/kabeerul__ali/",
+    description: "Personal/professional content"
+  },
+  {
+    name: "X (Twitter)",
+    icon: "fa-brands fa-x-twitter",
+    link: "https://x.com/Kabeerulali",
+    description: "Tech updates aur developer community"
+  }
 ];

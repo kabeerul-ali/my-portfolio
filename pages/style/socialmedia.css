@@ -2,3 +2,103 @@ h1 {
   font-size: clamp(20px, 4vw, 48px);
   color: red;
 }
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 0.5px solid cyan;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 10px 0px rgba(0, 255, 255, 0.322);
+  padding: 20px 0 20px 0;
+  background-color: rgba(95, 158, 160, 0.201);
+  
+}
+.left,.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  gap: 5px;
+}
+.right{
+  align-items: flex-start;
+}
+.right a{
+  text-decoration: none;
+  border: 0.5px solid #FFA116;
+  padding: 4px 15px 4px 15px;
+  border-radius: 1rem;
+  background-color: #e4405e39;
+  margin-top: 7px;
+  box-shadow: 2px 2px 20px 0px #ffa21663 ;
+  
+}
+
+.right a:hover{
+  
+  box-shadow: 2px 2px 20px 0px #ffa216a2 ;
+  transform: scale(1.01);
+  
+
+}
+.icon{
+  font-size: 40px;
+  transition: transform 1s ease-in-out;
+  z-index: 2147483647;
+}
+.icon:hover{
+  
+  transform: translateY(-120px) scale(2) rotate(-90deg);
+}
+
+.sname{
+  font-style: normal;
+  font-size: 1rem;
+  color:aliceblue;
+}
+.username{
+  font-size: 18px;
+  color:#94a3b8;
+
+}
+.social:hover{
+  transform: scale(1.005);
+  box-shadow: 4px 4px 10px 5px rgba(0, 255, 255, 0.607);
+  cursor: pointer;
+}
+
+.mlink{
+  font-style: normal;
+  font-size: 10px;
+  color: #38bdf8;
+
+}
+.des{
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.fa-github {
+  color: #ffffff;
+}
+
+.fa-linkedin {
+  color: #0A66C2;
+}
+
+.fa-leetcode {
+  color: #FFA116;
+}
+
+.fa-hackerrank {
+  color: #2EC866;
+}
+
+.fa-instagram {
+  color: #E4405F;
+}
+
+.fa-x-twitter {
+  color: #ffffff;
+}
