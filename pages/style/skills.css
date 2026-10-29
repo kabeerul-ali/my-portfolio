@@ -71,7 +71,16 @@ body{
    border-radius: 2rem;
    color: #22d3ee;
    border: 0.5px solid #22d3ee ;
+   box-shadow: 2px 2px 20px 0px rgba(0, 255, 255, 0.187);
+   transition: transform 10ms ease;
 }
+.skillitem:hover{
+    
+   box-shadow: 2px 2px 20px 0px rgba(0, 255, 255, 0.653);
+   transform: scale(1.005);
+   cursor: pointer;
+}
+
 .name{
     width: 96%;
     display: flex;
@@ -89,7 +98,4 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-
-
 }
