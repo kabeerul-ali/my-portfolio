@@ -1,0 +1,4 @@
+h1 {
+  font-size: clamp(20px, 4vw, 48px);
+  color: red;
+}

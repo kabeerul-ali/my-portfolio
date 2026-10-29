@@ -56,6 +56,16 @@ export const skills = [
       { name: "Query Optimization", level: 3.5 },
     ],
   },
+   {
+    name: "Tools & Platforms",
+    skills: [
+      { name: "Git", level: 4.5 },
+      { name: "GitHub", level: 4.5 },
+      { name: "Postman", level: 4 },
+      { name: "Visual Studio Code", level: 4.5 },
+      { name: "Microsoft Dynamics 365 Business Central", level: 3.5 },
+    ],
+  },
   {
     name: "Authentication & Authorization",
     skills: [
@@ -79,16 +89,7 @@ export const skills = [
       { name: "Cloudinary", level: 4 },
     ],
   },
-  {
-    name: "Tools & Platforms",
-    skills: [
-      { name: "Git", level: 4.5 },
-      { name: "GitHub", level: 4.5 },
-      { name: "Postman", level: 4 },
-      { name: "Visual Studio Code", level: 4.5 },
-      { name: "Microsoft Dynamics 365 Business Central", level: 3.5 },
-    ],
-  },
+ 
   {
     name: "Full-Stack Development",
     skills: [
@@ -160,4 +161,28 @@ export const projects = [
     live: "https://kabeerulaliportfolio.netlify.app/",
     image: "./projectimage/portfolio.png",
   },
+];
+export const experience = [
+  {
+    role: "Software Development Intern",
+    company: "F2 Consulting",
+    location: "Faridabad, Haryana",
+    duration: "January 2025 – June 2025",
+    type: "Internship",
+    responsibilities: [
+      "Tested and debugged Microsoft Dynamics 365 Business Central features to improve application reliability and functionality.",
+      "Identified and resolved software issues while optimizing existing workflows.",
+      "Collaborated with the development team during Agile sprints and participated in code reviews.",
+      "Supported software development and testing activities to maintain code quality and improve application performance."
+    ],
+    skills: [
+      "Microsoft Dynamics 365 Business Central",
+      "Software Testing",
+      "Debugging",
+      "Agile Methodology",
+      "Code Review",
+      "Workflow Optimization",
+      "Quality Assurance"
+    ]
+  }
 ];

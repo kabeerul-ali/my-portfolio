@@ -700,3 +700,23 @@ a:hover {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+
+#title {
+ 
+  text-align: center;
+  font-size: clamp(26px, 4vw, 36px);
+  margin-top: 5px;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 1px;
+
+  background: linear-gradient(
+    90deg, #22d3ee,#a3e635, #818cf8
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}

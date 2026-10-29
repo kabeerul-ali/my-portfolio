@@ -25,14 +25,14 @@ for (const i of projects) {
     pbtn.setAttribute("class","pbtn") ;
     const livebtn=document.createElement("button")
     livebtn.setAttribute("class","livebtn")
-    livebtn.innerText="Live Btn";
+    livebtn.innerText="Live Link->";
     livebtn.addEventListener("click",()=>{
         window.location.href=i.live;
     })
     pbtn.appendChild(livebtn);
     const githubbtn=document.createElement("button")
     githubbtn.setAttribute("class","githubbtn")
-    githubbtn.innerText="Live Btn";
+    githubbtn.innerText="Github link->";
     githubbtn.addEventListener("click",()=>{
         window.location.href=i.github;
     })

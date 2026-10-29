@@ -1,0 +1,70 @@
+:root {
+  --edubodybg: #0b1120;
+  --educontainerbg: #111c30;
+  --educardbg: #162238;
+  --edutitlecolor: #38bdf8;
+  --edudegreecolor: #e2e8f0;
+  --eduinstitutecolor: #a8b7cc;
+  --eduyearcolor: #818cf8;
+  --edubordercolor: #2b3b54;
+  --eduaccentcolor: #22d3ee;
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 99%;
+    gap: 20px;
+    padding:30px;
+    background-color:var(--educontainerbg);
+    border: 0.5px solid #38bdf8 ;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 20px 2px #38bff85b;
+}
+.education *{
+    font-style: italic;
+}
+.card{
+    width: 97%;
+    background-color: #2b3b54;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 16px;
+    border-radius: 1rem;
+    border: 1px solid rgba(128, 0, 128, 0.352);
+    box-shadow: 1px 1px 20px 0px  rgba(128, 0, 128, 0.352);
+    
+
+}
+.education .name{
+font-size: 17px;
+color: #22d3ee;
+
+
+padding-left: 4px;
+}
+.education .institude{
+font-size: 14px;
+color:#818cf8;
+
+}
+.education .passingyear{
+font-size: 10px;
+color:#818cf8;
+background-color: #22d3ee29;
+width: 60px;
+height: 22px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0.5px solid peru;
+border-radius: 1rem;
+box-shadow: 1px 1px 20px 0px peru;
+margin: 5px;
+transform: rotate(3deg);
+
+}
